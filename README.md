@@ -1,5 +1,7 @@
 # Scale or Die — The System Design 2D Game ⚡
 
+🎮 **Live Playable Game (GitHub Pages)**: **[https://ahsanayaz.github.io/scale-or-die-system-design-game/](https://ahsanayaz.github.io/scale-or-die-system-design-game/)**
+
 **Scale or Die** is a 2D Tower Defense & Traffic Routing web game where you play as a Principal Systems Architect defending your cloud infrastructure against escalating waves of real-world traffic (`GET` reads, `POST` writes, `STATIC` 4K media, `ASYNC` background jobs, and `MALICIOUS` DDoS bot floods).
 
 Built with **Phaser 3 (WebGL 60 FPS)** and **Angular 21 (Standalone Components, Signals, `OnPush` Change Detection)**, with custom AI-generated isometric sprites and a zero-dependency procedural Web Audio synthesizer.

@@ -113,24 +113,24 @@ export class ArchitectureScene extends Phaser.Scene {
 
   preload(): void {
     const nodeSprites: Array<[string, string]> = [
-      ['node_ingress', '/assets/sprites/node_ingress.png'],
-      ['node_waf', '/assets/sprites/node_waf.png'],
-      ['node_lb', '/assets/sprites/node_lb.png'],
-      ['node_cdn', '/assets/sprites/node_cdn.png'],
-      ['node_app', '/assets/sprites/node_app.png'],
-      ['node_redis', '/assets/sprites/node_redis.png'],
-      ['node_mq', '/assets/sprites/node_mq.png'],
-      ['node_sql', '/assets/sprites/node_sql.png'],
-      ['node_shard', '/assets/sprites/node_shard.png'],
-      ['node_replica', '/assets/sprites/node_replica.png'],
+      ['node_ingress', 'assets/sprites/node_ingress.png'],
+      ['node_waf', 'assets/sprites/node_waf.png'],
+      ['node_lb', 'assets/sprites/node_lb.png'],
+      ['node_cdn', 'assets/sprites/node_cdn.png'],
+      ['node_app', 'assets/sprites/node_app.png'],
+      ['node_redis', 'assets/sprites/node_redis.png'],
+      ['node_mq', 'assets/sprites/node_mq.png'],
+      ['node_sql', 'assets/sprites/node_sql.png'],
+      ['node_shard', 'assets/sprites/node_shard.png'],
+      ['node_replica', 'assets/sprites/node_replica.png'],
     ];
 
     const packetSprites: Array<[string, string]> = [
-      ['packet_get', '/assets/sprites/packet_get.png'],
-      ['packet_post', '/assets/sprites/packet_post.png'],
-      ['packet_static', '/assets/sprites/packet_static.png'],
-      ['packet_async', '/assets/sprites/packet_async.png'],
-      ['packet_ddos', '/assets/sprites/packet_ddos.png'],
+      ['packet_get', 'assets/sprites/packet_get.png'],
+      ['packet_post', 'assets/sprites/packet_post.png'],
+      ['packet_static', 'assets/sprites/packet_static.png'],
+      ['packet_async', 'assets/sprites/packet_async.png'],
+      ['packet_ddos', 'assets/sprites/packet_ddos.png'],
     ];
 
     for (const [key, url] of [...nodeSprites, ...packetSprites]) {

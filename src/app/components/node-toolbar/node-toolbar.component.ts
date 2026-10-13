@@ -95,7 +95,7 @@ import { GameStoreService } from '../../game/services/game-store.service';
           >
             <img
               class="node-thumb"
-              [src]="'/assets/sprites/' + item.spriteKey + '.png'"
+              [src]="'assets/sprites/' + item.spriteKey + '.png'"
               [alt]="item.name"
             />
             <div class="node-meta">

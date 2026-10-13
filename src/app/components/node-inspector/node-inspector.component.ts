@@ -18,7 +18,7 @@ import {
         <div class="inspector-header">
           <img
             class="inspector-sprite"
-            [src]="'/assets/sprites/' + catalog().spriteKey + '.png'"
+            [src]="'assets/sprites/' + catalog().spriteKey + '.png'"
             [alt]="catalog().name"
           />
           <div class="inspector-titles">

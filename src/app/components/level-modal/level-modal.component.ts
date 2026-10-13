@@ -159,7 +159,7 @@ import { NODE_CATALOG, PACKET_VISUALS } from '../../game/levels/node-catalog';
               <div class="codex-item">
                 <img
                   class="codex-img"
-                  [src]="'/assets/sprites/' + item.spriteKey + '.png'"
+                  [src]="'assets/sprites/' + item.spriteKey + '.png'"
                   [alt]="item.name"
                 />
                 <div class="codex-info">
@@ -180,7 +180,7 @@ import { NODE_CATALOG, PACKET_VISUALS } from '../../game/levels/node-catalog';
           <div class="packet-codex-row">
             @for (pkt of allPackets; track pkt.label) {
               <div class="pkt-chip">
-                <img [src]="'/assets/sprites/' + pkt.spriteKey + '.png'" [alt]="pkt.label" />
+                <img [src]="'assets/sprites/' + pkt.spriteKey + '.png'" [alt]="pkt.label" />
                 <div>
                   <strong [style.color]="pkt.colorHex">{{ pkt.label }}</strong>
                   <p>{{ pkt.description }}</p>
